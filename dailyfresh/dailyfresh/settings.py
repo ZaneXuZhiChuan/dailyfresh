@@ -123,7 +123,7 @@ USE_TZ = True
 # templates模块内文件引用静态文件地址时候填写的地址
 # 在templates引用静态文件时候太那些相对地址，应该是以这个‘别名’为准
 #  - 假设在static的image文件夹下有一张×××.jpg，那么在templates目录文件中的 html 文件内容里如果有 img 标签要引用这张图片应该写成 '/abc/image/***.jpg'
-STATIC_URL = '/aaa/'
+STATIC_URL = '/static/'
 # 静态文件存放的物理目录
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
